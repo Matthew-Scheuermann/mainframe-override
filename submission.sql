@@ -28,3 +28,8 @@ WHERE last_name = 'Steele';
  --step 5: 
  --Username: triple-cart-38
  --Password: password456
+
+
+--step 6
+SELECT * FROM emptystack_messages
+WHERE subject ILIKE '%taxi%' OR body ILIKE '%taxi%';
